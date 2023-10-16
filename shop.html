@@ -32,38 +32,38 @@
   
 
    <!-- INIZIO SCROLLSPY -->   
-   <div class="row">
-    <div class="col-1">
-      <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
-        <a class="p-1 rounded" href="#simple-list-item-1">Item 1</a>
-        <a class="p-1 rounded" href="#simple-list-item-2">Item 2</a>
-        <a class="p-1 rounded" href="#simple-list-item-3">Item 3</a>
-        <a class="p-1 rounded" href="#simple-list-item-4">Item 4</a>
-        <a class="p-1 rounded" href="#simple-list-item-5">Item 5</a>
-      </div>
-    </div>
-    <div class="col-8">
-      <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-        <h4 id="simple-list-item-1">Item 1</h4>
-        <p>...</p>
-        <h4 id="simple-list-item-2">Item 2</h4>
-        <p>...</p>
-        <h4 id="simple-list-item-3">Item 3</h4>
-        <p>...</p>
-        <h4 id="simple-list-item-4">Item 4</h4>
-        <p>...</p>
-        <h4 id="simple-list-item-5">Item 5</h4>
-        <p>...</p>
-      </div>
-    </div>
+   <div id="list-example" class="list-group">
+    <a class="list-group-item list-group-item-action" href="#list-item-1">Supporti</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-2">Raccordi e Collettori</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-3">Componenti</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-4">Progetti speciali </a>
   </div>
-  
+  <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <h4 id="list-item-1" style="color: white;;">Supporti</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic dolore, laboriosam officia asperiores voluptatem eos, consequatur deserunt dolores nesciunt inventore temporibus quod a doloribus. Omnis maiores atque expedita sint. Ullam?</p>
+    <h4 id="list-item-2">Raccordi e Collettori</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam enim sit, culpa maiores debitis fugiat itaque ab quas natus quidem sed, nisi minima, eius perspiciatis praesentium. Corporis, ullam perspiciatis!</p>
+    <h4 id="list-item-3">Componenti</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nihil excepturi magnam placeat sunt, natus esse rerum, ratione mollitia exercitationem, doloribus ut! Qui, magnam nemo soluta eum ex minima id.</p>
+    <h4 id="list-item-4">Progetti speciali</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde provident doloremque, voluptatem dolor eos quis voluptate nostrum aperiam qui laudantium quia magni hic sequi esse sit aliquid dolore? Perspiciatis, iusto.</p>
+  </div>
+
+
 </body>
 
 </html>
 
 <style>
-  body { 
+ body { 
     background-color: rgb(33, 37, 41);
   }
+
+  p {
+    color: white;
+  }
+
+ h4 {
+  color:white
+ }
 </style>
