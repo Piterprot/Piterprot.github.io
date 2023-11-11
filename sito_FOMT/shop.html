@@ -46,6 +46,25 @@
   div {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+
+.tastoShop{
+    background-color: red;
+    color: black;
+    margin-top:  4%;
+    margin-left: 3%;
+    z-index: 7;
+    position: fixed;
+    display: none;
+    
+  }
+  
+  .thumbnail:hover .tastoShop{
+    
+  display: block;
+  z-index: 22;
+}
+
  
  </style>
 
@@ -107,7 +126,10 @@
         <div class="row">
           <div class="col-md-4">
             <div class="thumbnail">
-              <a href="img/prodotti/supporti/supporto1.png" target="_blank">
+              <!--<a href="img/prodotti/supporti/supporto1.png" target="_blank"> -->
+                
+                <input type="button" value="NON DISPONIBILE" class="btn tastoShop">
+
                 <img src="img/prodotti/supporti/supporto1.png" alt=" Supporto intermedio" style="width:100%">
                 <div class="caption">
                   <p> Supporto intermedio</p>
@@ -285,7 +307,7 @@
           </div>
           <div class="col-md-4">
             <div class="thumbnail">
-              <a href="img/prodotti/speciali/primario.jpg" target="_blank">
+            <!--  <a href="img/prodotti/speciali/primario.jpg" target="_blank" class="nondisponibile">-->
                 <img src="img/prodotti/speciali/primario.jpg" alt="Primario" style="width:100%">
                 <div class="caption">
                   <p>Primario</p>
@@ -363,4 +385,3 @@
 
 </body> 
 </html>
-
